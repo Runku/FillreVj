@@ -106,8 +106,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/+buYbWz4TT_NiMTI9
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.shareus.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'hRPS5vvZc0OGOEUQJMJzPiojoVK2')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://modijiurl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'e771dad13c182a59c5c0fe18a6bf21a6305dd744')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
