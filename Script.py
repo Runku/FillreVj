@@ -208,7 +208,7 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """<b> {file_name}
 
-<b>Uploaded By @BackupByJaggii1</b>""" 
+<b>Uploaded By @BackupByJaggii</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
