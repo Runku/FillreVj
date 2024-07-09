@@ -17,9 +17,9 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'TechVJBot')
-API_ID = int(environ.get('API_ID', '22182189'))
-API_HASH = environ.get('API_HASH', '5e7c4088f8e23d0ab61e29ae11960bf5')
+SESSION = environ.get('SESSION', 'Jaggiedits')
+API_ID = int(environ.get('API_ID', '14628899'))
+API_HASH = environ.get('API_HASH', 'c5f8d5cd4fd9206add14bc12d53f9e5b')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
@@ -106,8 +106,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/+buYbWz4TT_NiMTI9
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://modijiurl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'e771dad13c182a59c5c0fe18a6bf21a6305dd744')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://tnshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'ad3def4886a08b8b396b452d08323f0d4595d276')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
