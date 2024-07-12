@@ -70,8 +70,8 @@ CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ and Bot Is Admin With Full Right.
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/BackupByaJaggiiRequest')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/BackupByaJaggii')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/BackupByJaggiiRequest')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/BackupByJaggii')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+buYbWz4TT_NiMTI9')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'BackupByaJaggiiRequest') # Support Chat Link Without https:// or @
 
