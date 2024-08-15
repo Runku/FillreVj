@@ -95,7 +95,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', True))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://tnshort.net')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'ad3def4886a08b8b396b452d08323f0d4595d276')
@@ -105,7 +105,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/+buYbWz4TT_NiMTI9')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://tnshort.net')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'ad3def4886a08b8b396b452d08323f0d4595d276')
 
